@@ -1,0 +1,21 @@
+{
+  "loading": "Carregando...",
+  "error": "Ocorreu um erro",
+  "save": "Salvar",
+  "cancel": "Cancelar",
+  "delete": "Excluir",
+  "edit": "Editar",
+  "create": "Criar",
+  "search": "Buscar",
+  "back": "Voltar",
+  "next": "Próximo",
+  "previous": "Anterior",
+  "submit": "Enviar",
+  "confirm": "Confirmar",
+  "close": "Fechar",
+  "learnMore": "Saiba Mais",
+  "documentation": "Documentação",
+  "officialWebsite": "Site Oficial",
+  "github": "Repositório GitHub",
+  "backToHome": "Voltar ao Início"
+}

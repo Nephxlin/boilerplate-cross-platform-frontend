@@ -1,0 +1,13 @@
+{
+  "title": "Serwist",
+  "shortDescription": "PWA support",
+  "description": "Serwist is a modern service worker library that makes it easy to add PWA capabilities to your application. It provides caching strategies, offline support, and push notifications.",
+  "usage": "Serwist is configured to enable PWA features including offline support, caching strategies for assets, and a web manifest for installability.",
+  "features": {
+    "1": "Service worker generation",
+    "2": "Offline support",
+    "3": "Caching strategies",
+    "4": "Push notifications",
+    "5": "Next.js integration"
+  }
+}

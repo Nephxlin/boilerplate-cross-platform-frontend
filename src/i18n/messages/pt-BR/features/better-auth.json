@@ -1,0 +1,13 @@
+{
+  "title": "better-auth",
+  "shortDescription": "Autenticação",
+  "description": "better-auth é uma biblioteca de autenticação moderna para aplicações TypeScript. Fornece uma forma simples e flexível de adicionar autenticação com suporte a múltiplos provedores.",
+  "usage": "A autenticação está configurada com better-auth suportando email/senha e provedores sociais. A configuração de auth está na pasta lib com utilitários de cliente e servidor.",
+  "features": {
+    "1": "Múltiplos provedores de auth",
+    "2": "Gerenciamento de sessão",
+    "3": "TypeScript-first",
+    "4": "Adaptadores de banco de dados",
+    "5": "Suporte a login social"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "title": "Next.js 16",
+  "shortDescription": "React framework with App Router",
+  "description": "Next.js is a React framework that enables server-side rendering, static site generation, and more. Version 16 introduces Turbopack for faster development builds and improved performance.",
+  "usage": "This boilerplate uses Next.js 16 with the App Router for file-based routing, Server Components for improved performance, and Turbopack for lightning-fast development experience.",
+  "features": {
+    "1": "App Router with file-based routing",
+    "2": "Server and Client Components",
+    "3": "Turbopack for fast builds",
+    "4": "Built-in image optimization",
+    "5": "API Routes for backend logic"
+  }
+}

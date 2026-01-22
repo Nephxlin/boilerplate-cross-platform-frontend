@@ -1,0 +1,21 @@
+{
+  "loading": "Loading...",
+  "error": "An error occurred",
+  "save": "Save",
+  "cancel": "Cancel",
+  "delete": "Delete",
+  "edit": "Edit",
+  "create": "Create",
+  "search": "Search",
+  "back": "Back",
+  "next": "Next",
+  "previous": "Previous",
+  "submit": "Submit",
+  "confirm": "Confirm",
+  "close": "Close",
+  "learnMore": "Learn More",
+  "documentation": "Documentation",
+  "officialWebsite": "Official Website",
+  "github": "GitHub Repository",
+  "backToHome": "Back to Home"
+}

@@ -1,0 +1,13 @@
+{
+  "title": "better-auth",
+  "shortDescription": "Authentication",
+  "description": "better-auth is a modern authentication library for TypeScript applications. It provides a simple and flexible way to add authentication with support for multiple providers.",
+  "usage": "Authentication is configured with better-auth supporting email/password and social providers. The auth configuration is in the lib folder with client and server utilities.",
+  "features": {
+    "1": "Multiple auth providers",
+    "2": "Session management",
+    "3": "TypeScript-first",
+    "4": "Database adapters",
+    "5": "Social login support"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "title": "TypeScript",
+  "shortDescription": "Type-safe development",
+  "description": "TypeScript is a strongly typed programming language that builds on JavaScript, giving you better tooling at any scale. It catches errors early and provides better code documentation.",
+  "usage": "The entire codebase is written in TypeScript with strict mode enabled, ensuring type safety across components, API routes, and utility functions.",
+  "features": {
+    "1": "Static type checking",
+    "2": "Enhanced IDE support",
+    "3": "Better code refactoring",
+    "4": "Self-documenting code",
+    "5": "Catch errors at compile time"
+  }
+}

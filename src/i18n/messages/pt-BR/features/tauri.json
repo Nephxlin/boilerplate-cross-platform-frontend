@@ -1,0 +1,13 @@
+{
+  "title": "Tauri",
+  "shortDescription": "Aplicação desktop",
+  "description": "Tauri é um framework para construir binários pequenos e rápidos para todas as principais plataformas desktop e mobile. Usa tecnologias web para a UI e Rust para o backend.",
+  "usage": "Tauri 2 está configurado para construir aplicações desktop para Windows, macOS e Linux, além de apps mobile para Android e iOS. O backend Rust está na pasta src-tauri.",
+  "features": {
+    "1": "Tamanho de bundle pequeno",
+    "2": "Performance nativa",
+    "3": "Cross-platform (Desktop e Mobile)",
+    "4": "Seguro por padrão",
+    "5": "Backend em Rust"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "title": "React Hook Form",
+  "shortDescription": "Form handling with Zod",
+  "description": "React Hook Form is a performant form library that uses hooks and uncontrolled components. Combined with Zod, it provides type-safe form validation with excellent developer experience.",
+  "usage": "Forms are built using React Hook Form with Zod schemas for validation. The useFormWithValidation hook provides a simplified API for creating validated forms.",
+  "features": {
+    "1": "Minimal re-renders",
+    "2": "Zod schema validation",
+    "3": "TypeScript integration",
+    "4": "Easy error handling",
+    "5": "Uncontrolled components"
+  }
+}

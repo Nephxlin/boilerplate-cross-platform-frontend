@@ -1,0 +1,13 @@
+{
+  "title": "Playwright",
+  "shortDescription": "E2E testing",
+  "description": "Playwright is a framework for end-to-end testing that supports all modern browsers. It provides reliable cross-browser testing with features like auto-waiting and tracing.",
+  "usage": "Playwright is configured to run E2E tests across Chrome, Firefox, Safari, and mobile viewports. Tests are located in the e2e folder and can be run with the Playwright CLI.",
+  "features": {
+    "1": "Cross-browser testing",
+    "2": "Mobile emulation",
+    "3": "Auto-waiting",
+    "4": "Trace viewer",
+    "5": "Screenshot testing"
+  }
+}

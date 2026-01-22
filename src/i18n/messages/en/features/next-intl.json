@@ -1,0 +1,13 @@
+{
+  "title": "next-intl",
+  "shortDescription": "Internationalization",
+  "description": "next-intl provides internationalization for Next.js applications. It supports the App Router, Server Components, and provides a simple API for translations and formatting.",
+  "usage": "The project supports English and Portuguese (Brazil) languages. Translations are organized in JSON files and accessed via hooks in components.",
+  "features": {
+    "1": "App Router support",
+    "2": "Server Components compatible",
+    "3": "Type-safe translations",
+    "4": "Date and number formatting",
+    "5": "Locale-based routing"
+  }
+}

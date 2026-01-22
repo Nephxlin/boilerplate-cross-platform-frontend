@@ -1,0 +1,13 @@
+{
+  "title": "Zustand",
+  "shortDescription": "Gerenciamento de estado",
+  "description": "Zustand é uma solução de gerenciamento de estado pequena, rápida e escalável. Possui uma API simples baseada em hooks, não requer providers e suporta middleware para persistência e devtools.",
+  "usage": "Zustand gerencia o estado global da aplicação incluindo preferências de tema e estado da UI. A store usa o middleware persist para salvar o estado no localStorage.",
+  "features": {
+    "1": "Boilerplate mínimo",
+    "2": "Sem necessidade de providers",
+    "3": "Middleware persist para localStorage",
+    "4": "Integração com DevTools",
+    "5": "Suporte a TypeScript"
+  }
+}

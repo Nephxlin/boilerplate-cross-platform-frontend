@@ -1,0 +1,13 @@
+{
+  "title": "Tailwind CSS",
+  "shortDescription": "Estilização utility-first",
+  "description": "Tailwind CSS é um framework CSS utility-first que permite construir designs modernos diretamente no seu markup. A versão 4 traz melhorias significativas de performance e novos recursos.",
+  "usage": "Tailwind CSS 4 está configurado com variáveis de tema personalizadas para cores e tipografia. O projeto usa classes utilitárias para estilização com variáveis CSS personalizadas para temas.",
+  "features": {
+    "1": "Abordagem utility-first",
+    "2": "Design responsivo facilitado",
+    "3": "Suporte a modo escuro",
+    "4": "Configuração de tema personalizada",
+    "5": "Builds de produção otimizados"
+  }
+}

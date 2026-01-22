@@ -1,0 +1,13 @@
+{
+  "title": "Zustand",
+  "shortDescription": "State management",
+  "description": "Zustand is a small, fast, and scalable state management solution. It has a simple API based on hooks, doesn't require providers, and supports middleware for persistence and devtools.",
+  "usage": "Zustand manages global application state including theme preferences and UI state. The store uses the persist middleware to save state to localStorage.",
+  "features": {
+    "1": "Minimal boilerplate",
+    "2": "No providers needed",
+    "3": "Persist middleware for localStorage",
+    "4": "DevTools integration",
+    "5": "TypeScript support"
+  }
+}

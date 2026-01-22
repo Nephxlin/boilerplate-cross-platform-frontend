@@ -1,0 +1,13 @@
+{
+  "title": "Storybook",
+  "shortDescription": "Component documentation",
+  "description": "Storybook is a frontend workshop for building UI components and pages in isolation. It helps you develop, test, and document components without running your whole app.",
+  "usage": "Storybook 10 is configured for component development and documentation. Stories are located in the stories folder and can be run independently from the main application.",
+  "features": {
+    "1": "Component isolation",
+    "2": "Visual testing",
+    "3": "Documentation generation",
+    "4": "Accessibility testing",
+    "5": "Interactive controls"
+  }
+}
