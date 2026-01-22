@@ -5,6 +5,7 @@ import { useLocale } from 'next-intl'
 import { Link, usePathname } from '@/i18n/navigation'
 import { cn } from '@/lib/cn'
 import { useTheme } from '@/hooks/use-theme'
+import Logo from '@/_UI/components/atoms/Logo/Aqtale'
 
 export default function Header() {
   const { theme, toggleTheme, mounted } = useTheme()
@@ -26,9 +27,11 @@ export default function Header() {
       )}
     >
       <div className="mx-auto flex h-14 max-w-5xl items-center justify-between px-4">
-        <Link href="/" className="text-lg font-semibold">
-          Boilerplate
-        </Link>
+          <Link href="/" className="text-lg font-semibold flex items-center gap-2">
+            <Logo width={50} height={50} />
+            <span className="text-lg font-semibold">Aqtale - Boilerplate</span>
+          </Link>
+
 
         {/* Desktop Navigation */}
         <nav className="hidden items-center gap-2 md:flex">

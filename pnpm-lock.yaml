@@ -108,6 +108,9 @@ importers:
       playwright:
         specifier: ^1.57.0
         version: 1.57.0
+      png2icons:
+        specifier: ^2.0.1
+        version: 2.0.1
       prettier:
         specifier: ^3.8.1
         version: 3.8.1
@@ -3190,6 +3193,10 @@ packages:
   playwright@1.57.0:
     resolution: {integrity: sha512-ilYQj1s8sr2ppEJ2YVadYBN0Mb3mdo9J0wQ+UuDhzYqURwSoW4n1Xs5vs7ORwgDGmyEh33tRMeS8KhdkMoLXQw==}
     engines: {node: '>=18'}
+    hasBin: true
+
+  png2icons@2.0.1:
+    resolution: {integrity: sha512-GDEQJr8OG4e6JMp7mABtXFSEpgJa1CCpbQiAR+EjhkHJHnUL9zPPtbOrjsMD8gUbikgv3j7x404b0YJsV3aVFA==}
     hasBin: true
 
   pngjs@7.0.0:
@@ -7015,6 +7022,8 @@ snapshots:
       playwright-core: 1.57.0
     optionalDependencies:
       fsevents: 2.3.2
+
+  png2icons@2.0.1: {}
 
   pngjs@7.0.0: {}
 
