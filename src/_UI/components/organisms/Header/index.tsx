@@ -6,7 +6,7 @@ import { Link, usePathname } from '@/i18n/navigation'
 import { cn } from '@/lib/cn'
 import { useTheme } from '@/hooks/use-theme'
 
-export function Header() {
+export default function Header() {
   const { theme, toggleTheme, mounted } = useTheme()
   const [menuOpen, setMenuOpen] = useState(false)
   const locale = useLocale()

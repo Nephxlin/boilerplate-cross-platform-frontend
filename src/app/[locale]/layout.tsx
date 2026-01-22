@@ -4,7 +4,7 @@ import { NextIntlClientProvider } from 'next-intl'
 import { getMessages } from 'next-intl/server'
 import { notFound } from 'next/navigation'
 import { routing } from '@/i18n/routing'
-import { Header } from '@/components'
+import Header from '@/_UI/components/organisms/Header'
 import '../globals.css'
 
 const geistSans = Geist({

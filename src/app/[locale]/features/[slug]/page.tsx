@@ -1,7 +1,7 @@
 import { notFound } from 'next/navigation'
 import { getTranslations } from 'next-intl/server'
 import { Link } from '@/i18n/navigation'
-import { getFeatureBySlug, getAllFeatureSlugs } from '@/lib/features'
+import { getFeatureBySlug, getAllFeatureSlugs } from '@/data/features/featuresMock'
 
 interface FeaturePageProps {
   params: Promise<{

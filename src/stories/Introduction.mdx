@@ -1,0 +1,90 @@
+---
+title: Introduction
+---
+
+# _UI — Design System
+
+Bem-vindo ao **Storybook** da **_UI**: o design system do projeto, organizado em **Atomic Design**. Use esta tela como referência para explorar os componentes, entender a estrutura e saber como importar ou criar novos.
+
+---
+
+## O que é Atomic Design
+
+Os componentes seguem a ordem **átomos → moléculas → organismos → templates**:
+
+| Nível | O que é |
+|-------|--------|
+| **Atoms** | Elementos básicos (botão, input, ícone) |
+| **Molecules** | Combinações de átomos (campo, card, chip) |
+| **Organisms** | Seções complexas (header, form, tabela) |
+| **Templates** | Layouts de página (estrutura, slots) |
+
+No **sidebar** à esquerda, as stories estão em **UI** (ex.: `UI/Atoms/Button`, `UI/Organisms/Header`).
+
+---
+
+## Atoms
+
+**O que significa:** Os menores blocos da interface. Elementos HTML estilizados, sem lógica de negócio, reutilizáveis em qualquer contexto.
+
+**Exemplos:** Buttons, Inputs, Labels, Icons, Badges, Avatars, Spinners, Dividers, Links.
+
+Cada átomo deve ser **autocontido** e **documentado com Storybook**.
+
+---
+
+## Molecules
+
+**O que significa:** **Combinações de átomos** que formam um bloco funcional (ex.: campo de busca, item de lista).
+
+**Exemplos:** SearchBar, FormField, Card, ListItem, Chip/Tag, NavigationTab, Alert, CheckboxField/RadioField.
+
+Moléculas **combinam apenas átomos**. Prefira **props** para configuração; evite estado global.
+
+---
+
+## Organisms
+
+**O que significa:** **Seções complexas** que agrupam moléculas e/ou átomos (cabeçalho, rodapé, formulário completo).
+
+**Exemplos:** Header, Footer, Sidebar, Form, FeatureCards, DataTable, Modal/Drawer, Hero.
+
+Podem usar **hooks** (roteamento, tema, i18n) e **estado local**. Mantenha **uma responsabilidade** por organismo.
+
+---
+
+## Templates
+
+**O que significa:** **Layouts de página**: estrutura (grid, colunas) onde organismos são dispostos. **Não** contêm conteúdo real, apenas **slots**.
+
+**Exemplos:** DefaultLayout, AuthLayout, DashboardLayout, LandingLayout, ModalLayout.
+
+Templates definem apenas **estrutura e responsividade**. O conteúdo vem das **pages**.
+
+---
+
+## Como usar
+
+### Explorar no Storybook
+
+- **Controls**: alterar props em tempo real.
+- **Docs**: ver props e exemplos.
+- **A11y**: checar acessibilidade.
+
+### Importar no app
+
+```tsx
+import { Button, Input } from '@/_UI/components/atoms'
+import Header from '@/_UI/components/organisms/Header'
+```
+
+### Adicionar novos componentes
+
+1. Escolha o nível (átomo, molécula, organismo ou template).
+2. Crie a pasta (ex.: `atoms/Icon/`) com `index.tsx` e `ComponentName.stories.tsx`.
+3. Exporte no `index.ts` do nível.
+4. Documente no Storybook; as stories aparecem em **UI** automaticamente.
+
+---
+
+Para mais detalhes, consulte os **README.md** em `_UI/components/atoms`, `molecules`, `organisms` e `templates`.
