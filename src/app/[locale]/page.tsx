@@ -6,6 +6,7 @@ import { staggerFadeIn } from '@/lib/animations'
 import { features } from '@/data/features/featuresMock'
 import FeatureCard from '@/_UI/components/organisms/FeatureCards'
 import Logo from '@/_UI/components/atoms/Logo/Aqtale'
+import { NotificationButton } from '@/_UI/components/atoms'
 
 export default function HomePage() {
   const t = useTranslations()
@@ -25,6 +26,15 @@ export default function HomePage() {
       <div ref={contentRef} className="max-w-3xl text-center">
         <h1 className="mb-4 text-4xl font-bold">{t('home.title')}</h1>
         <p className="text-foreground/70 mb-8 text-lg">{t('home.description')}</p>
+
+        <div className="mb-8" suppressHydrationWarning>
+          <NotificationButton
+            variant="default"
+            size="lg"
+            notificationTitle={t('notifications.defaultTitle')}
+            notificationBody={t('notifications.defaultBody')}
+          />
+        </div>
 
         <div className="flex flex-wrap justify-center gap-4">
           {features.map((feature) => (

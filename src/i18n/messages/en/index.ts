@@ -2,6 +2,7 @@ import common from './common.json'
 import auth from './auth.json'
 import validation from './validation.json'
 import home from './home.json'
+import notifications from './notifications.json'
 import featuresIndex from './features/index.json'
 import nextjs from './features/nextjs.json'
 import typescript from './features/typescript.json'
@@ -20,6 +21,7 @@ const messages = {
   auth,
   validation,
   home,
+  notifications,
   features: {
     ...featuresIndex,
     nextjs,

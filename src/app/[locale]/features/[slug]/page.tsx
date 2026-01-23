@@ -1,7 +1,8 @@
 import { notFound } from 'next/navigation'
-import { getTranslations } from 'next-intl/server'
+import { getTranslations, setRequestLocale } from 'next-intl/server'
 import { Link } from '@/i18n/navigation'
 import { getFeatureBySlug, getAllFeatureSlugs } from '@/data/features/featuresMock'
+import { routing } from '@/i18n/routing'
 
 interface FeaturePageProps {
   params: Promise<{
@@ -12,11 +13,13 @@ interface FeaturePageProps {
 
 export async function generateStaticParams() {
   const slugs = getAllFeatureSlugs()
+  // Generate params for all combinations of locale and slug
   return slugs.map((slug) => ({ slug }))
 }
 
 export async function generateMetadata({ params }: FeaturePageProps) {
-  const { slug } = await params
+  const { locale, slug } = await params
+  setRequestLocale(locale)
   const t = await getTranslations('features')
   const feature = getFeatureBySlug(slug)
 
@@ -31,7 +34,8 @@ export async function generateMetadata({ params }: FeaturePageProps) {
 }
 
 export default async function FeaturePage({ params }: FeaturePageProps) {
-  const { slug } = await params
+  const { locale, slug } = await params
+  setRequestLocale(locale)
   const t = await getTranslations()
   const feature = getFeatureBySlug(slug)
 

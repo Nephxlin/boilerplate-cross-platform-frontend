@@ -1,0 +1,59 @@
+{
+  "showNotification": "Mostrar Notificacao",
+  "requesting": "Solicitando permissao...",
+  "permissionDenied": "Permissao Negada",
+  "permissionDeniedMessage": "As notificacoes foram bloqueadas. Por favor, permita notificacoes nas configuracoes do navegador.",
+  "defaultTitle": "Notificacao do Sistema",
+  "defaultBody": "Esta e uma notificacao de teste do sistema operacional!",
+  "buttons": {
+    "default": "Mostrar Notificacao",
+    "success": "Mostrar Sucesso",
+    "error": "Mostrar Erro",
+    "warning": "Mostrar Aviso",
+    "info": "Mostrar Info"
+  },
+  "types": {
+    "default": {
+      "defaultTitle": "Notificacao",
+      "defaultBody": "Esta e uma notificacao do sistema."
+    },
+    "success": {
+      "defaultTitle": "Sucesso",
+      "defaultBody": "A operacao foi concluida com sucesso!"
+    },
+    "error": {
+      "defaultTitle": "Erro",
+      "defaultBody": "Ocorreu um erro. Por favor, tente novamente."
+    },
+    "warning": {
+      "defaultTitle": "Aviso",
+      "defaultBody": "Por favor, preste atencao a este aviso."
+    },
+    "info": {
+      "defaultTitle": "Informacao",
+      "defaultBody": "Aqui esta uma informacao para voce."
+    }
+  },
+  "actions": {
+    "view": "Ver",
+    "dismiss": "Dispensar",
+    "reply": "Responder",
+    "confirm": "Confirmar",
+    "cancel": "Cancelar",
+    "retry": "Tentar Novamente"
+  },
+  "channels": {
+    "default": "Geral",
+    "success": "Sucesso",
+    "error": "Erros",
+    "warning": "Avisos",
+    "info": "Informacoes"
+  },
+  "schedule": {
+    "scheduled": "Notificacao agendada",
+    "cancelled": "Notificacao cancelada",
+    "inMinutes": "Em {minutes} minutos",
+    "inHours": "Em {hours} horas",
+    "at": "As {time}"
+  }
+}

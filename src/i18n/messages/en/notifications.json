@@ -1,0 +1,59 @@
+{
+  "showNotification": "Show Notification",
+  "requesting": "Requesting permission...",
+  "permissionDenied": "Permission Denied",
+  "permissionDeniedMessage": "Notifications have been blocked. Please allow notifications in your browser settings.",
+  "defaultTitle": "System Notification",
+  "defaultBody": "This is a test notification from the operating system!",
+  "buttons": {
+    "default": "Show Notification",
+    "success": "Show Success",
+    "error": "Show Error",
+    "warning": "Show Warning",
+    "info": "Show Info"
+  },
+  "types": {
+    "default": {
+      "defaultTitle": "Notification",
+      "defaultBody": "This is a notification from the system."
+    },
+    "success": {
+      "defaultTitle": "Success",
+      "defaultBody": "The operation was completed successfully!"
+    },
+    "error": {
+      "defaultTitle": "Error",
+      "defaultBody": "An error occurred. Please try again."
+    },
+    "warning": {
+      "defaultTitle": "Warning",
+      "defaultBody": "Please pay attention to this warning."
+    },
+    "info": {
+      "defaultTitle": "Information",
+      "defaultBody": "Here is some information for you."
+    }
+  },
+  "actions": {
+    "view": "View",
+    "dismiss": "Dismiss",
+    "reply": "Reply",
+    "confirm": "Confirm",
+    "cancel": "Cancel",
+    "retry": "Retry"
+  },
+  "channels": {
+    "default": "General",
+    "success": "Success",
+    "error": "Errors",
+    "warning": "Warnings",
+    "info": "Information"
+  },
+  "schedule": {
+    "scheduled": "Notification scheduled",
+    "cancelled": "Notification cancelled",
+    "inMinutes": "In {minutes} minutes",
+    "inHours": "In {hours} hours",
+    "at": "At {time}"
+  }
+}
